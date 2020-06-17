@@ -1,0 +1,321 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/*@font-face {
+	font-family: 'myMontserrat' ;
+    src: url('/ttf/Montserrat-Regular.ttf') format('truetype');
+}*/
+
+body {
+    /*font-family: "Montserrat";
+    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:  #77C3FF;
+}
+
+.dropbtn {
+	background-color: #77C3FF;
+	color: #F6D500;
+	padding: 40%;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+	background-color: #F6D500;
+	color: white;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 450px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #77C3FF;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 2%;
+}
+
+.dropdown-content a:hover {text-decoration: underline;}
+
+.show {display: block;}
+
+.button {
+	background-color: white;
+	border-style: solid;
+	border-width: 0px;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #77C3FF;
+	color: white;
+}
+
+.button1:hover {
+	background-color: #F6D500;
+	color: white;
+}
+
+.button-2 {
+	background-color: white;
+	border-radius: 12px;
+	border-style: solid;
+	border-width: 0px;
+	padding: 4px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+.button2 {
+	color: #77C3FF;
+}
+
+.button2:hover {
+	background-color: #F6D500;
+	color: white;
+}
+
+.button-3 {
+    background-color: white;
+    border-style: solid;
+    border-width: 0px;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button3 {
+    background-color: #77C3FF;
+    color: white;
+}
+
+.button3:hover {
+	background-color: #F6D500;
+	color: white;
+}
+
+.collapsible {
+    background-color: #F6D500;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 12px;
+    border-width: 0px;
+    padding: 4px 8px;
+    text-align: center;
+}
+
+.active, .collapsible:hover {
+    background-color: #F6D500;
+    color: white;
+ }
+
+.content {
+  display: none;
+  overflow: hidden;
+  text-align: left;
+}
+
+input[type="text"] {
+	border-color: #77C3FF;
+	border-style: solid;
+	font-size: 15px;
+	width: 150px; 
+	height: 32px;
+}
+
+input[type="password"] {
+	border-color: #77C3FF;
+	border-style: solid;
+	font-size: 15px;
+	width: 150px; 
+	height: 32px;
+}
+
+textarea {
+	width: 450px; 
+	height: 100px;
+	text-align: right;
+}
+
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: : 1;
+	top: 2%;
+	left: 1%;
+}
+
+div label {
+	display: block;
+	float: right;
+	font-size: 15px;
+}
+
+div select {
+    display: block;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    textarea {font-size: 20px;}
+}
+
+.explore {
+    background-color: white;
+    color: #77C3FF;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*text-align: center centers the LessMoreButton - the text is aligned left elsewhere*/
+.about {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    font-size: 20px;
+    line-height: 2;
+    background-color: #77C3FF;
+    color: white;
+    text-align: center;
+}
+
+.login {
+	display: inline-block; 
+	float: right;
+	padding: 1%;
+	font-size: 20px;
+}
+
+.contact {
+	color: white;
+	background-color: #77C3FF;
+	font-size: 15px;
+}
+
+.contact-column {
+	float: left;
+	height: auto;
+}
+
+.left {
+	text-align: right;
+	width: 45%;
+}
+
+.right {
+	width: 35%;
+	display: inline-block; 
+	text-align: right;
+	padding-left: 1%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.img1 {
+	width: 600px; 
+	height: 180px; 
+	padding-bottom: 3%; 
+}
+
+.img2 {
+	float: left; 
+	width: 60px; 
+	height: 60px; 
+	padding-right: 2%; 
+}
+
+.name-email {
+    display: inline-block; 
+    float: center; 
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.img1 {
+		width: 300px; 
+		height: 100px; 
+		padding-top: 3%; 
+		padding-bottom: 3%; 
+		padding-left: 5%;
+	}
+
+	.contact-column { 
+	    margin: 0;
+	}
+	
+	.left {
+	    padding-left: 1%;
+	}
+	
+	.right {
+	    display: inline-block; 
+	    width: 95%;
+	    text-align: left;
+	}
+
+	.row:after {
+    	content: "";
+    	display: table;
+    	clear: both;
+	}
+	
+    .name-email {
+        padding-left: 1%;
+    }
+    
+	textarea {
+		width: 345px; 
+		height: 100px;
+	}
+
+	.dropbtn {
+		background-color: #77C3FF;
+		color: #F6D500;
+		padding: 30%;
+		font-size: 18px;
+		border: none;
+		cursor: pointer;
+	}
+}

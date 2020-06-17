@@ -1,0 +1,74 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    /*font-family: "Montserrat";
+    font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+.split {
+	height: 100%;
+	width: 60%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+}
+
+.left {
+	left: 0;
+	word-wrap: break-word;
+	width: 35%;
+	padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.right {
+	right: 0;
+	background-color: #77C3FF;
+	color: black;
+	padding-right: 2%;
+	padding-left: 1%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 20px;
+}
+
+a {
+	color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #77C3FF;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #F6D500;
+	color: white;
+}
+
+.listing {
+    font-size: 20px;
+}
